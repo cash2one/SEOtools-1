@@ -9,7 +9,7 @@ import re
 
 keyword = input("请输入查询的关键词:\n")
 
-#keywords = ['国双','艾德思奇']
+#keywords = ['第壹投','p2p理财']
 keyword = urllib.request.quote(keyword)
 
 url = "http://sug.so.360.cn/suggest?callback=suggest_so&encodein=utf-8&encodeout=utf-8&format=json&fields=word,obdata&word="
